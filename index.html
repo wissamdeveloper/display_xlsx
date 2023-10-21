@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XLSX Reader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="home-button">Home</a>
+        <div class="navbar-title">XLSX Reader</div>
+    </nav>
+    <div class="container">
+        <div class="center-content">
+            <h1>مرحبا  بكم  </h1>
+            <button id="generateTable" class="generate-button">جدول الملف</button>
+            <label for="fileInput" class="file-upload">
+                <input type="file" id="fileInput" accept=".xlsx">
+                تحميل الملف
+            </label>
+            <div id="uploadMessage" class="hidden" >تم تحميل الملف بنحاح</div>
+        </div>
+    </div>
+
+    <div id="tableContainer" class="hidden">
+        <div id="excelData" class="table-container"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.3/xlsx.full.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
