@@ -26,8 +26,8 @@ There's no installation required. You can access the XLSX Reader directly by ope
 ## How to Use
 
 1. Open 'index.html' in your web browser.
-2. Click the "تحميل الملف" button to upload an XLSX file.
-3. Once the file is uploaded successfully, click "جدول الملف" to generate the HTML table.
+2. Click the "Upload File" button to upload an XLSX file.
+3. Once the file is uploaded successfully, click "generate a table" to generate the HTML table.
 4. View and interact with the data in the generated table.
 
 ## Contributing
